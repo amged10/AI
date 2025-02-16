@@ -194,6 +194,68 @@ section ul li:hover {
     list-style-type: none;            /* إزالة النقط (اختياري) */
     padding: 0;                       /* إزالة المسافات الداخلية الافتراضية */
 }
+/* تنسيق قسم الروابط */
+#aiLinks {
+  background: var(--section-bg);
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.ai-links-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.ai-link-card {
+  background: var(--bg-color);
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.ai-link-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.ai-link-card a {
+  text-decoration: none;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ai-link-card i {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+}
+
+.ai-link-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.ai-link-card p {
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .ai-links-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .ai-link-card {
+    padding: 1rem;
+  }
+}
 .eimg{
     position: absolute;
     top: 45%;
