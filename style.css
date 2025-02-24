@@ -234,7 +234,41 @@ section ul li:hover {
   margin-bottom: 1rem;
   color: var(--secondary-color);
 }
-
+.narrow_AI{
+    display: none;
+}
+.public_AI{
+    display: none;
+}
+.turbo_AI{
+    display: none;
+}
+#types ul button li{
+    width: 110%;
+}
+#types ul button{
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: transparent;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style:none;
+    border-color: transparent;
+    border-image: initial;
+}
 .ai-link-card h3 {
   font-size: 1.4rem;
   margin-bottom: 0.5rem;
