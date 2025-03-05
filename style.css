@@ -84,7 +84,6 @@ nav {
     background: transparent;
     transition: background-color 0.3s;
 }
-
 nav ul {
     list-style: none;
     display: flex;
