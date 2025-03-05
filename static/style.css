@@ -8,6 +8,7 @@
     --section-bg: #f6f6f6;
     --text-color: #2c3e50;
     --footer-text-color:white;
+    --icon-color:black;
 }
 /* المتغيرات للوضع الداكن */
 :root.dark-mode {
@@ -19,8 +20,11 @@
     --section-bg: #1e1e1e;
     --text-color: #ecf0f1;
     --footer-text-color: black;
+    --icon-color:black;
 }
-
+.social-icons a i{
+    color: var(--icon-color);
+}
 /* إعادة تعيين القيم الافتراضية */
 * {
     margin: 0;
